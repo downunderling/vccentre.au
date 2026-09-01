@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Courts & Tribunals | The Video Conferencing Centre</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="nav-container">
+      <a href="index.html" class="logo">THE VIDEOCONFERENCING CENTRE</a>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="courts-tribunals.html" class="active">Courts & Tribunals</a>
+        <a href="contact.html">Contact</a>
+        <a href="clocks.html">World Clocks</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <h1>Courts & Tribunals</h1>
+    <div class="content">
+      <p>The Video Conferencing Centre provides remote video-link rooms for court and tribunal hearings. In addition we provide interconnecting services for people to use a laptop or smartphone to connect through to court hearings.</p>
+
+      <p>Services are provided to all jurisdictions for both civil and criminal matters.</p>
+    </div>
+  </main>
+
+  <footer>
+    <p>PROFESSIONAL QUALITY VIDEO CONFERENCING</p>
+    <p>Across Australia and Worldwide</p>
+  </footer>
+</body>
+</html>
