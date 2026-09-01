@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | The Video Conferencing Centre</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="nav-container">
+      <a href="index.html" class="logo">THE VIDEOCONFERENCING CENTRE</a>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="courts-tribunals.html">Courts & Tribunals</a>
+        <a href="contact.html" class="active">Contact</a>
+        <a href="clocks.html">World Clocks</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <h1>Contact Us</h1>
+    <div class="contact-box">
+      <p>For all enquiries please contact us by email:</p>
+      <a href="mailto:info@thevccentre.com" class="email-link">info@thevccentre.com</a>
+    </div>
+  </main>
+
+  <footer>
+    <p>PROFESSIONAL QUALITY VIDEO CONFERENCING</p>
+    <p>Across Australia and Worldwide</p>
+  </footer>
+</body>
+</html>
