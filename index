@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home | The Video Conferencing Centre</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="nav-container">
+      <a href="index.html" class="logo">THE VIDEOCONFERENCING CENTRE</a>
+      <nav>
+        <a href="index.html" class="active">Home</a>
+        <a href="courts-tribunals.html">Courts & Tribunals</a>
+        <a href="contact.html">Contact</a>
+        <a href="clocks.html">World Clocks</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <h1>Professional Quality Video Conferencing</h1>
+    <div class="content">
+      <p>Videoconferencing (or AVL – audio visual link) is a powerful, proven, strategic tool that lets you operate your business more efficiently, productively and profitably. The Video Conferencing Centre can show you how to meet your specific business needs effectively and affordably.</p>
+
+      <p>Videoconferencing saves time and money on travel and helps you develop opportunities by giving you more for your budget. You can make the bi-annual staff meeting a monthly one, engage an international trainer or meet business colleagues without the inconvenience of travel.</p>
+
+      <p>The Video Conferencing Centre has been providing fully equipped public rooms on an hourly basis for over 25 years. We also have the technical expertise to connect your own video conferencing equipment to remote equipment whether via SIP, IP, ISDN or cloud based technology.</p>
+    </div>
+  </main>
+
+  <footer>
+    <p>PROFESSIONAL QUALITY VIDEO CONFERENCING</p>
+    <p>Across Australia and Worldwide</p>
+  </footer>
+</body>
+</html>
