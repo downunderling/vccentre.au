@@ -1,0 +1,242 @@
+/* ===== RESET & BASE ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  line-height: 1.6;
+  color: #1a1a1a;
+  background: #f8f9fa;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ===== HEADER / NAV ===== */
+header {
+  background: #ffffff;
+  border-bottom: 1px solid #e5e7eb;
+  padding: 0 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+}
+
+.nav-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+}
+
+.logo {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #0f2744;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  gap: 0.5rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #374151;
+  font-size: 0.95rem;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+}
+
+nav a:hover {
+  background: #f1f5f9;
+  color: #0f2744;
+}
+
+nav a.active {
+  background: #0f2744;
+  color: #ffffff;
+}
+
+/* ===== MAIN CONTENT ===== */
+main {
+  flex: 1;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 3.5rem 1.5rem;
+  width: 100%;
+}
+
+h1 {
+  font-size: 1.85rem;
+  color: #0f2744;
+  margin-bottom: 1.75rem;
+  font-weight: 700;
+}
+
+.content p {
+  margin-bottom: 1.4rem;
+  font-size: 1.05rem;
+  color: #374151;
+  max-width: 65ch;
+}
+
+/* ===== CONTACT PAGE ===== */
+.contact-box {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 2.5rem;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+}
+
+.contact-box p {
+  margin-bottom: 1.25rem;
+}
+
+.email-link {
+  display: inline-block;
+  margin-top: 0.5rem;
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: #0f2744;
+  text-decoration: none;
+  border-bottom: 2px solid #0f2744;
+  padding-bottom: 2px;
+}
+
+.email-link:hover {
+  color: #1e40af;
+  border-color: #1e40af;
+}
+
+/* ===== CLOCKS PAGE ===== */
+.clocks-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.clock-card {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 1.75rem 1.25rem;
+  text-align: center;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+}
+
+.clock-card h2 {
+  font-size: 1.1rem;
+  color: #0f2744;
+  margin-bottom: 1.25rem;
+  font-weight: 600;
+}
+
+.clock-face {
+  width: 160px;
+  height: 160px;
+  margin: 0 auto 1rem;
+  border-radius: 50%;
+  border: 6px solid #0f2744;
+  position: relative;
+  background: #f8fafc;
+}
+
+.clock-face::after {
+  content: '';
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: #0f2744;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+}
+
+.hand {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  transform-origin: bottom center;
+  background: #0f2744;
+  border-radius: 4px;
+}
+
+.hour-hand {
+  width: 5px;
+  height: 40px;
+  margin-left: -2.5px;
+}
+
+.minute-hand {
+  width: 3.5px;
+  height: 55px;
+  margin-left: -1.75px;
+  background: #1e40af;
+}
+
+.second-hand {
+  width: 2px;
+  height: 60px;
+  margin-left: -1px;
+  background: #dc2626;
+}
+
+.digital-time {
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: #1f2937;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.5px;
+}
+
+/* ===== FOOTER ===== */
+footer {
+  background: #0f2744;
+  color: #e2e8f0;
+  text-align: center;
+  padding: 1.5rem;
+  font-size: 0.9rem;
+  margin-top: auto;
+}
+
+footer p {
+  margin: 0.25rem 0;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 700px) {
+  .nav-container {
+    flex-direction: column;
+    height: auto;
+    padding: 1rem 0;
+    gap: 0.75rem;
+  }
+
+  nav {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  main {
+    padding: 2.5rem 1.25rem;
+  }
+
+  h1 {
+    font-size: 1.55rem;
+  }
+}
